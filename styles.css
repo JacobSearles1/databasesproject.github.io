@@ -59,3 +59,23 @@ ul li a{
 ul li a:hover {
     background-color: lavender;
 }
+
+@media (max-width: 480px) {
+    html, body {
+        
+    }
+
+    .banner {
+        font-size: 1.2em;
+    }
+
+    .table-container  {
+        overflow-x: auto;
+        max-width: 90%;
+        margin: auto;
+    }
+
+    header {
+        font-size: 1.2em;
+    }
+}
