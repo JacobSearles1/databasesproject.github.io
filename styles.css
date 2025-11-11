@@ -11,7 +11,7 @@ html {
     right: 0px;
     text-align: center;
     z-index: 1000;
-    border-bottom: 1px solid beige;
+    border-bottom: 1px solid rgb(216, 216, 193);
 }
 
 .logo {
@@ -57,7 +57,7 @@ th, td {
 }
 
 th {
-    background-color: rgb(211, 191, 191);
+    background-color: rgb(226, 226, 221);
 }
 
 th:hover, td:hover {
@@ -101,41 +101,38 @@ ul li a:hover {
     }
 
 .about-us {
+    display: flex;
     margin-top: 10px;
     height: 300px;
     border: 1px solid rgb(233, 233, 226);
     border-radius: 10px;
     background-color: rgb(226, 226, 221);
     box-shadow: 5px 5px 10px rgb(146, 146, 131);
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portrait {
     scale: 50%;
-    position: relative;
-    top: -110px;
-    left: -100px;
+    float: left;
 }
 
 .portrait-mid {
     scale: 50%;
-    position: relative;
-    top: -110px;
-    right: -500px;
+    float: right;
+    
 }
 
 h1.left-about {
-    position: relative;
-    top: -500px;
-    left: 300px;
+    float: left;
 }
 
 h1.right-about {
-    position: relative;
-    top: -500px;
-    left: 375px;
+    float: right;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     html {
         overflow-x: hidden;
     }
@@ -151,11 +148,12 @@ h1.right-about {
         margin: auto;
     }
 
-    img {
+    .logo {
+        display: block;
         overflow: hidden;
         scale: 75%;
         position: absolute;
-        top: 20px;
+        top: -10px;
         left: 0;
         right: 0;
         width: 100%;
@@ -163,7 +161,7 @@ h1.right-about {
 
     ul li a{
     display: block;
-    color: white;
+    color: gray;
     padding: 10px 10px;
     text-decoration: none;
     margin-top: 15px;
@@ -172,9 +170,38 @@ h1.right-about {
     .github {
         scale: 10%;
         position: absolute;
-        top: -165px;
+        top: -205px;
         right: 0px;
-        left: 175px;
+        left: 125px;
     }
+
+    .info-box {
+        display: flex;
+        justify-content: space-around; /* or space-between / center / flex-start */
+        align-items: center;
+        flex-wrap: wrap; /* lets items wrap on smaller screens */
+        gap: 1rem; /* adds space between items */
+        padding: 1rem;
+    }
+
+    .about-us {
+        display: flex;
+        flex-direction: column; /* stack img and text vertically */
+        align-items: center; /* center image and text horizontally */
+        text-align: center;
+    }
+
+    .portrait, .portrait-mid {
+        width: 250px; /* adjust size as needed */
+        height: auto;
+        border-radius: 50%; /* makes image circular */
+    }
+
+    .left-about, .right-about {
+        margin-top: 0.5rem;
+        font-size: 24px;
+    }
+
+
 
 }

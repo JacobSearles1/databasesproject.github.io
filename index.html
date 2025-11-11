@@ -19,13 +19,13 @@
     <p class="desc">A brief description of the project goes here.</p>
     <input type="text" id="search-bar" onkeyup="searchTable()" placeholder="Search for a name...">
     <div class="table-container">
-    <table>
+    <table id="mytable">
         <thead>
             <tr>
-                <th>PlaceHolder</th>
-                <th>PlaceHolder</th>
-                <th>PlaceHolder</th>
-                <th>PlaceHolder</th>
+                <th onclick="sortTable(0)">Title</th>
+                <th onclick="sortTable(1)">Author</th>
+                <th onclick="sortTable(2)">Genre</th>
+                <th onclick="sortTable(3)">Price (CAD)</th>
             </tr>
         </thead>
         <tbody id="data-table">

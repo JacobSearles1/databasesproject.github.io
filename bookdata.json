@@ -1,0 +1,68 @@
+[
+    {
+        "genre": "Fantasy",
+        "price": 15.99,
+        "title": "One Piece Vol 1",
+        "author": "Eiichiro Oda"
+    },
+    {
+        "genre": "Fiction",
+        "price": 19.99,
+        "title": "Goodnight Tokyo",
+        "author": "Atsuhiro Yoshida"
+    },
+    {
+        "genre": "Non-Fiction",
+        "price": 24.99,
+        "title": "Unbroken",
+        "author": "Laura Hillenbrand"
+    },
+    {
+        "genre": "Fantasy",
+        "price": 15.99,
+        "title": "Black Clover Vol 1",
+        "author": "Yuki Tabata"
+    },
+    {
+        "genre": "Fantasy",
+        "price": 15.99,
+        "title": "Tokyo Ghoul Vol 1",
+        "author": "Sui Ishida"
+    },
+    {
+        "genre": "Fiction",
+        "price": 19.99,
+        "title": "Tokyo Ueno Station",
+        "author": "Yu Miri"
+    },
+    {
+        "genre": "Fantasy",
+        "price": 15.99,
+        "title": "Animal Crossing: New Horizons Deserted Island Diary Vol 1",
+        "author": "Kokonasu Rumba"
+    },
+    {
+        "genre": "Fiction",
+        "price": 24.99,
+        "title": "Before the Coffee Gets Cold",
+        "author": "Toshikazu Kawaguchi"
+    },
+    {
+        "genre": "Fiction",
+        "price": 18.99,
+        "title": "I Want to Eat Your Pancreas",
+        "author": "Yoru Sumino"
+    },
+    {
+        "genre": "Fantasy",
+        "price": 26.99,
+        "title": "The Girl That Fell Beneath the Sea",
+        "author": "Axie Oh"
+    },
+    {
+        "genre": "Non-Fiction",
+        "price": 22.99,
+        "title": "Abroad in Japan",
+        "author": "Chris Broad"
+    }
+]
