@@ -1,27 +1,52 @@
-.banner {
-    background-image: linear-gradient(180deg, darkgrey, grey, darkgrey);
-    width: 100%;
-    height: 100px;
-    position: absolute;
-    top: 0;
-    right: 0px;
+html {
+    overflow-x: hidden;
 }
 
-header {
-    font-size: 36px;
+.banner {
+    background-color: rgb(226, 226, 221);
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    right: 0px;
     text-align: center;
-    padding-top: 20px;
-    color: white;
+    z-index: 1000;
+    border-bottom: 1px solid beige;
 }
+
+.logo {
+    scale: 80%;
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
 
 .spacer {
     margin-top: 150px;
 }
 
+#search-bar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
 table {
+    margin-top: 25px;
     border: 1px solid black;
-    margin: auto;
     border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
     width: 75%;
     box-shadow: 5px 5px 10px black;
 }
@@ -51,28 +76,105 @@ ul {
 
 ul li a{
     display: block;
-    color: white;
-    padding: 14px 16px;
+    color: grey;
+    padding: 14px 20px;
     text-decoration: none;
+    margin-top: -5px;
+    font-size: 24px;
 }
 
 ul li a:hover {
-    background-color: lavender;
+    background-color: rgb(206, 206, 201);
+}
+
+.desc {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.github {
+    scale: 10%;
+    position: absolute;
+    top: -205px;
+    right: -200px;
+    }
+
+.about-us {
+    margin-top: 10px;
+    height: 300px;
+    border: 1px solid rgb(233, 233, 226);
+    border-radius: 10px;
+    background-color: rgb(226, 226, 221);
+    box-shadow: 5px 5px 10px rgb(146, 146, 131);
+}
+
+.portrait {
+    scale: 50%;
+    position: relative;
+    top: -110px;
+    left: -100px;
+}
+
+.portrait-mid {
+    scale: 50%;
+    position: relative;
+    top: -110px;
+    right: -500px;
+}
+
+h1.left-about {
+    position: relative;
+    top: -500px;
+    left: 300px;
+}
+
+h1.right-about {
+    position: relative;
+    top: -500px;
+    left: 375px;
 }
 
 @media (max-width: 480px) {
+    html {
+        overflow-x: hidden;
+    }
+
      .banner {
         font-size: 1.2em;
+        overflow: hidden;
     }
 
     .table-container  {
         overflow-x: auto;
         max-width: 90%;
         margin: auto;
-        border: 1px soilid black;
     }
 
-    header {
-        font-size: 1.2em;
+    img {
+        overflow: hidden;
+        scale: 75%;
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        width: 100%;
     }
+
+    ul li a{
+    display: block;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin-top: 15px;
+    }
+
+    .github {
+        scale: 10%;
+        position: absolute;
+        top: -165px;
+        right: 0px;
+        left: 175px;
+    }
+
 }
