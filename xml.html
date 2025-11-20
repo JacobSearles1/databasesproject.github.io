@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="banner">
+    <header><a class="home" href="index.html"><img class="logo" src="logo.png" alt="Logo"></a></header>
+    <h1><a href="https://github.com/JacobSearles1" target="_blank"><img class="github" src="github.png" alt="GitHub"></a></h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="credits.html">About Us</a></li>
+    </ul>
+    </div>
+    <p class="spacer"></p>
+    <p class="desc">A brief description of the project goes here.</p>
+    <input type="text" id="search-bar" onkeyup="searchTable()" placeholder="Search for a name...">
+    <div class="table-container">
+    <table id="mytable">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)">Department</th>
+                <th onclick="sortTable(1)">Project Name</th>
+                <th onclick="sortTable(2)">Estimated Cost ($)</th>
+                <th onclick="sortTable(3)">Province/Territory</th>
+                <th onclick="sortTable(4)">Municipality</th>
+            </tr>
+        </thead>
+        <tbody id="data-table">
+            <!-- use json data to fill out-->
+        </tbody>
+    </table>
+    </div>
+    <script src="import.js"></script>
+</body>
+</html>

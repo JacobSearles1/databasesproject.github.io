@@ -41,13 +41,19 @@ html {
     font-weight: bold;
 }
 
+.table-container {
+    margin-top: 25px;
+    height: 800px;
+    overflow-y: auto;
+}
+
 table {
     margin-top: 25px;
     border: 1px solid black;
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 90%;
     box-shadow: 5px 5px 10px black;
 }
 
@@ -81,10 +87,15 @@ ul li a{
     text-decoration: none;
     margin-top: -5px;
     font-size: 24px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: -10px;
+    transition: background-color 0.3s;
 }
 
 ul li a:hover {
     background-color: rgb(206, 206, 201);
+    transition: background-color 0.3s;
 }
 
 .desc {
@@ -130,6 +141,24 @@ h1.left-about {
 
 h1.right-about {
     float: right;
+}
+
+.map-placeholder {
+  padding: 8px 10px;
+  color: #444;
+  font-size: 14px;
+  background: #f7f7f7;
+  border: 1px dashed #ddd;
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin: auto;
+}
+.map.hidden { display: none; }
+.map iframe { width: 400px; height: 300px; border: 1px solid #000; display: block; }
+
+.province:hover {
+    cursor: pointer;
 }
 
 @media (max-width: 600px) {

@@ -1,0 +1,123 @@
+<DATA>
+
+	<ROW>
+		<BookID>1</BookID>
+		<Title>One Piece Vol 1</Title>
+		<Author>Eiichiro Oda</Author>
+		<Genre>Fantasy</Genre>
+		<BookCondition>Used</BookCondition>
+		<InStock>In Stock</InStock>
+		<PublicationYear>1997</PublicationYear>
+		<Price>15.99</Price>
+	</ROW>
+
+	<ROW>
+		<BookID>2</BookID>
+		<Title>Goodnight Tokyo</Title>
+		<Author>Atsuhiro Yoshida</Author>
+		<Genre>Fiction</Genre>
+		<BookCondition>New</BookCondition>
+		<InStock>In Stock</InStock>
+		<PublicationYear>2024</PublicationYear>
+		<Price>19.99</Price>
+	</ROW>
+
+	<ROW>
+		<BookID>3</BookID>
+		<Title>Unbroken</Title>
+		<Author>Laura Hillenbrand</Author>
+		<Genre>Non-Fiction</Genre>
+		<BookCondition>Used</BookCondition>
+		<InStock>In Stock</InStock>
+		<PublicationYear>2010</PublicationYear>
+		<Price>24.99</Price>
+	</ROW>
+
+	<ROW>
+		<BookID>4</BookID>
+		<Title>Black Clover Vol 1</Title>
+		<Author>Yuki Tabata</Author>
+		<Genre>Fantasy</Genre>
+		<BookCondition>New</BookCondition>
+		<InStock>In Stock</InStock>
+		<PublicationYear>2015</PublicationYear>
+		<Price>15.99</Price>
+	</ROW>
+
+	<ROW>
+		<BookID>5</BookID>
+		<Title>Tokyo Ghoul Vol 1</Title>
+		<Author>Sui Ishida</Author>
+		<Genre>Fantasy</Genre>
+		<BookCondition>Used</BookCondition>
+		<InStock>In Stock</InStock>
+		<PublicationYear>2012</PublicationYear>
+		<Price>15.99</Price>
+	</ROW>
+
+	<ROW>
+		<BookID>6</BookID>
+		<Title>Tokyo Ueno Station</Title>
+		<Author>Yu Miri</Author>
+		<Genre>Fiction</Genre>
+		<BookCondition>Used</BookCondition>
+		<InStock>In Stock</InStock>
+		<PublicationYear>2014</PublicationYear>
+		<Price>19.99</Price>
+	</ROW>
+
+	<ROW>
+		<BookID>7</BookID>
+		<Title>Animal Crossing: New Horizons Deserted Island Diary Vol 1</Title>
+		<Author>Kokonasu Rumba</Author>
+		<Genre>Fantasy</Genre>
+		<BookCondition>New</BookCondition>
+		<InStock>In Stock</InStock>
+		<PublicationYear>2025</PublicationYear>
+		<Price>15.99</Price>
+	</ROW>
+
+	<ROW>
+		<BookID>8</BookID>
+		<Title>Before the Coffee Gets Cold</Title>
+		<Author>Toshikazu Kawaguchi</Author>
+		<Genre>Fiction</Genre>
+		<BookCondition>Used</BookCondition>
+		<InStock>In Stock</InStock>
+		<PublicationYear>2015</PublicationYear>
+		<Price>24.99</Price>
+	</ROW>
+
+	<ROW>
+		<BookID>9</BookID>
+		<Title>I Want to Eat Your Pancreas</Title>
+		<Author>Yoru Sumino</Author>
+		<Genre>Fiction</Genre>
+		<BookCondition>New</BookCondition>
+		<InStock>In Stock</InStock>
+		<PublicationYear>2015</PublicationYear>
+		<Price>18.99</Price>
+	</ROW>
+
+	<ROW>
+		<BookID>10</BookID>
+		<Title>The Girl That Fell Beneath the Sea</Title>
+		<Author>Axie Oh</Author>
+		<Genre>Fantasy</Genre>
+		<BookCondition>Used</BookCondition>
+		<InStock>In Stock</InStock>
+		<PublicationYear>2022</PublicationYear>
+		<Price>26.99</Price>
+	</ROW>
+
+	<ROW>
+		<BookID>11</BookID>
+		<Title>Abroad in Japan</Title>
+		<Author>Chris Broad</Author>
+		<Genre>Non-Fiction</Genre>
+		<BookCondition>Used</BookCondition>
+		<InStock>Out of Stock</InStock>
+		<PublicationYear>2023</PublicationYear>
+		<Price>22.99</Price>
+	</ROW>
+</DATA>
