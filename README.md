@@ -9,7 +9,7 @@ Our tables include; Projects, Provinces, Contractors and Project Assignments. Th
 
 ## Setup and Execution
 You will need: MYSQL Workbench downloaded and installed
-To create your own database:
+<br>To create your own database:
   1. Open the provided file in MYSQL Workbench
   2. To create the database/populate the tables, click the lightning bolt or use the shortcut Ctrl+Shift+Enter to run the script.
   3. To verify the database and tables were populated we have included queries at the bottom of the script that you can highlight and run with Ctrl+Shift+Enter or click at the end of desired query and use Ctrl+Enter to run the line your cursor is on.
