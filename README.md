@@ -2,7 +2,7 @@
 <p align="center">By: Jacob Searles, Devon Portieous, Kaedon Soule</p>  
 
 ## Project Overview
-We aim to create a centralized database for projects happening in Canada including their current status, budget, location and name of the project to help organize and allow everyone to easily and cleanly access the information they would like to see by providing search and filtering options to help you sift through content to only see what you are interested in. For demonstration purposes we have used some data from the [Housing and Infrastructure Project Map](https://housing-infrastructure.canada.ca/gmap-gcarte/index-eng.html)
+We aim to create a centralized database for projects happening in Canada including their current status, budget, location and name of the project to help organize and allow everyone to easily and cleanly access the information they would like to see by providing search and filtering options to help you sift through content to only see what you are interested in. For demonstration purposes we have used some data from the <a href="https://housing-infrastructure.canada.ca/gmap-gcarte/index-eng.html" target="_blank">Housing and Infrastructure Project Map</a>
 
 ## Database Design
 Placeholder Text
