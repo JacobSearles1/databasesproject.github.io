@@ -12,22 +12,24 @@
     <h1><a href="https://github.com/JacobSearles1" target="_blank"><img class="github" src="github.png" alt="GitHub"></a></h1>
     <ul>
         <li><a href="index.html">Home</a></li>
+        <li><a href="xml.html">In-Progress</a></li>
         <li><a href="credits.html">About Us</a></li>
     </ul>
     </div>
     <p class="spacer"></p>
-    <p class="desc">A brief description of the project goes here.</p>
+    <p class="desc">We have created a centralized database of projects to help display proper status and budget information on country wide projects.</p>
+    <p class="desc">Click on headers to sort tables, or use the search bar to find specific projects by name!</p>
     <input type="text" id="search-bar" onkeyup="searchTable()" placeholder="Search for a name...">
+    <!-- This Table is populated by JSON -->
     <div class="table-container">
     <table id="mytable">
         <thead>
             <tr>
-                <th onclick="sortTable(0)">Department</th>
-                <th onclick="sortTable(1)">Project Name</th>
-                <th onclick="sortTable(2)">Estimated Cost ($)</th>
-                <th onclick="sortTable(3)">Province/Territory</th>
-                <th onclick="sortTable(4)">Municipality</th>
-                <th onclick="sortTable(5)">Status</th>
+                <th onclick="sortTable(0)">Project Name</th>
+                <th onclick="sortTable(1)">Estimated Cost ($)</th>
+                <th onclick="sortTable(2)">Province/Territory</th>
+                <th onclick="sortTable(3)">Municipality</th>
+                <th onclick="sortTable(4)">Status</th>
                 <th onclick="showMap()" id="map-row">Map View</th>
             </tr>
         </thead>

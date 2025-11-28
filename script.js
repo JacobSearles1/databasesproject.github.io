@@ -6,7 +6,6 @@
             data.forEach(user => {
                 const row = document.createElement('tr');
                 row.innerHTML = `
-                    <td>${user.Department}</td>
                     <td>${user.projectName}</td>
                     <td style="text-align:right;">$${user.Estimated_cost}</td>
                     <td style="text-align:center;" class="province" data-lat="${user.Latitude}" data-lng="${user.Longitude}" style="pointer:">${user.Province_Territory} <br>(Click to show map)</br></td>

@@ -1,0 +1,90 @@
+<DATA>
+
+	<ROW>
+		<ProjectID>5</ProjectID>
+		<ProjectName>Guest drive storm sewer upgrades - Phase II</ProjectName>
+		<Budget>1163292</Budget>
+		<Status>Pre-Construction</Status>
+		<ProvinceName>Nova Scotia</ProvinceName>
+	</ROW>
+
+	<ROW>
+		<ProjectID>6</ProjectID>
+		<ProjectName>Community Water System Improvement</ProjectName>
+		<Budget>301138</Budget>
+		<Status>Pre-Construction</Status>
+		<ProvinceName>Newfoundland</ProvinceName>
+	</ROW>
+
+	<ROW>
+		<ProjectID>7</ProjectID>
+		<ProjectName>Wastewater Treatment Plant</ProjectName>
+		<Budget>2500000</Budget>
+		<Status>Pre-Construction</Status>
+		<ProvinceName>Manitoba</ProvinceName>
+	</ROW>
+
+	<ROW>
+		<ProjectID>8</ProjectID>
+		<ProjectName>Teslin Tlingit Community Services Building</ProjectName>
+		<Budget>49741578.39</Budget>
+		<Status>Pre-Construction</Status>
+		<ProvinceName>Yukon</ProvinceName>
+	</ROW>
+
+	<ROW>
+		<ProjectID>9</ProjectID>
+		<ProjectName>Skinners Pond Transmission Line</ProjectName>
+		<Budget>32500000</Budget>
+		<Status>Pre-Construction</Status>
+		<ProvinceName>PEI</ProvinceName>
+	</ROW>
+
+	<ROW>
+		<ProjectID>10</ProjectID>
+		<ProjectName>Wildfire Risk Reduction and Capacity Development in Northern Saskatchewan</ProjectName>
+		<Budget>39604950</Budget>
+		<Status>In-Progress</Status>
+		<ProvinceName>Manitoba</ProvinceName>
+	</ROW>
+
+	<ROW>
+		<ProjectID>11</ProjectID>
+		<ProjectName>RM of Browning Grid 700 Road Upgrades</ProjectName>
+		<Budget>5280000</Budget>
+		<Status>In-Progress</Status>
+		<ProvinceName>Saskatchewan</ProvinceName>
+	</ROW>
+
+	<ROW>
+		<ProjectID>12</ProjectID>
+		<ProjectName>Peter Ballantyne Cree Nation Southend Community Ice Rink</ProjectName>
+		<Budget>6000000</Budget>
+		<Status>In-Progress</Status>
+		<ProvinceName>Saskatchewan</ProvinceName>
+	</ROW>
+
+	<ROW>
+		<ProjectID>13</ProjectID>
+		<ProjectName>Rehabilitation/Reconstruction of Bruce County Road 6 East A</ProjectName>
+		<Budget>4754100</Budget>
+		<Status>In-Progress</Status>
+		<ProvinceName>Ontario</ProvinceName>
+	</ROW>
+
+	<ROW>
+		<ProjectID>14</ProjectID>
+		<ProjectName>Debert gateway - servicing and stormwater management</ProjectName>
+		<Budget>749816.63</Budget>
+		<Status>In-Progress</Status>
+		<ProvinceName>Nova Scotia</ProvinceName>
+	</ROW>
+
+	<ROW>
+		<ProjectID>22</ProjectID>
+		<ProjectName>Devon Portieous Highway</ProjectName>
+		<Budget>100000</Budget>
+		<Status>Pre-Construction</Status>
+		<ProvinceName>Ontario</ProvinceName>
+	</ROW>
+</DATA>

@@ -1,4 +1,4 @@
-fetch("import.xml")
+fetch("finalprojecttest.xml")
   .then(res => res.text())
   .then(xmlText => {
     const parser = new DOMParser();
@@ -15,14 +15,10 @@ function xmlToJson(xmlDoc) {
 
   for (let row of rows) {
     books.push({
-      BookID: row.getElementsByTagName("BookID")[0].textContent,
-      Title: row.getElementsByTagName("Title")[0].textContent,
-      Author: row.getElementsByTagName("Author")[0].textContent,
-      Genre: row.getElementsByTagName("Genre")[0].textContent,
-      BookCondition: row.getElementsByTagName("BookCondition")[0].textContent,
-      InStock: row.getElementsByTagName("InStock")[0].textContent,
-      PublicationYear: row.getElementsByTagName("PublicationYear")[0].textContent,
-      Price: parseFloat(row.getElementsByTagName("Price")[0].textContent)
+      ProjectName: row.getElementsByTagName("ProjectName")[0].textContent,
+      Budget: row.getElementsByTagName("Budget")[0].textContent,
+      Status: row.getElementsByTagName("Status")[0].textContent,
+      ProvinceName: row.getElementsByTagName("ProvinceName")[0].textContent
     });
   }
 
@@ -37,11 +33,10 @@ function populateTable(data) {
     const tr = document.createElement("tr");
 
     tr.innerHTML = `
-      <td>${item.BookID}</td>
-      <td>${item.Title}</td>
-      <td>${item.Author}</td>
-      <td>${item.Genre}</td>
-      <td>${item.PublicationYear}</td>
+      <td>${item.ProjectName}</td>
+      <td>$${item.Budget}</td>
+      <td>${item.Status}</td>
+      <td>${item.ProvinceName}</td>
     `;
 
     tableBody.appendChild(tr);

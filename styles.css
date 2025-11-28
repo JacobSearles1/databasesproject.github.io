@@ -124,6 +124,24 @@ ul li a:hover {
     margin-right: auto;
 }
 
+.bio {
+    margin-top: 100px;
+    margin-left: -225px;
+    font-size: 24px;
+}
+
+.bio-top {
+    margin-top: 100px;
+    margin-left: -190px;
+    font-size: 24px;
+}
+
+.bio-bottom {
+    margin-top: 100px;
+    margin-left: -345px;
+    font-size: 24px;
+}
+
 .portrait {
     scale: 50%;
     float: left;
